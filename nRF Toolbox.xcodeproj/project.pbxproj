@@ -553,7 +553,6 @@
 				5217F3E01859EE0000F2D5BB /* Resources */,
 				0E645A0E1CBF943000D36AD0 /* Embed Frameworks */,
 				1C633273D176F0D847977108 /* [CP] Embed Pods Frameworks */,
-				443450C8244E84C1AFFCA266 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -574,7 +573,7 @@
 				ORGANIZATIONNAME = "Nordic Semiconductor";
 				TargetAttributes = {
 					5217F3E11859EE0000F2D5BB = {
-						DevelopmentTeam = P3R8YQEV4L;
+						DevelopmentTeam = UHVNE9A69Q;
 						LastSwiftMigration = 0910;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -592,6 +591,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -651,21 +651,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nRF Toolbox/Pods-nRF Toolbox-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		443450C8244E84C1AFFCA266 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nRF Toolbox/Pods-nRF Toolbox-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B80C1585542D2D10E73CB3A /* [CP] Check Pods Manifest.lock */ = {
@@ -893,6 +878,7 @@
 				CODE_SIGN_ENTITLEMENTS = "nRF Toolbox/nRF Toolbox.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = UHVNE9A69Q;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -920,7 +906,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nordicsemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mksc.nRF-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -945,6 +931,7 @@
 				CODE_SIGN_ENTITLEMENTS = "nRF Toolbox/nRF Toolbox.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = UHVNE9A69Q;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -972,7 +959,7 @@
 					"\"iOSDFULibrary\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nordicsemi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mksc.nRF-Toolbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
